@@ -1,0 +1,42 @@
+body {
+    background-color: #4e4d50;
+    font-family: 'Roboto', sans-serif;
+    min-width: 360px;
+    color: whitesmoke;
+}
+h2 {
+    font-weight: 200;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+hr {
+    border-top: 2px solid #990724;
+}
+.dark-background {
+    background-color: #1a1a1d;
+}
+.round-edge {
+    border-radius: 2px;
+}
+.thin-text {
+    font-weight: 100;
+}
+.logo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    height: 144px;
+}
+
+.name {
+    font-size: 6em;
+}
+.round-edge-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.round-edge-bottom {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
