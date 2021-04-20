@@ -15,7 +15,7 @@
             <div class="col-md-6">
                 <img class="logo" src="../images/dev-logo.png" alt="EDA logo">
             </div>
-            <div class="col-md-6 text-right">
+            <div class="col-md-6 text-end">
                 <a href="../index.html"><h1 class="display-1 thin-text">Tom Hooper</h1></a>
                 <h4>Dev in Training</h4>
             </div>
@@ -24,20 +24,26 @@
             <div class="col-md-12">
                 <hr>
                 <h2>Positioning in CSS</h2>
-                <h4><em>What are the differences between relative, absolute, and fixed positioning?</em></h4>
+                <h4 style="padding-bottom: 8px;"><em>What are the differences between relative, absolute, and fixed positioning?</em></h4>
+                <p>
+                  This is a quick explanation on how to position elements using CSS. An element is a building block that web developers use to build a website, think of it like a brick being used to build a house. To make the examples easier to visualize I have used a border to make a white box around the elements I talk about in my examples, think of the white box like a wall or section of the house with multiple bricks inside it. A property is just another way of telling a brick how to behave.
+                </p>
+            </div>
+            <div class="col-md-12 dark-background center-block">
+              <img class="img-fluid" src="../images/brick.jpg" alt="brick wall">
             </div>
         </div>
           <div class="row dark-background align-items-center">
               <div class="col-md-6">
-                  <h3>Relative</h3>
+                  <h3 style="margin-top: 16px;">Relative</h3>
                   <p>
-                    Relative position acts exactly the same as static positioning (which is the default position for every element) except it allows you to move the element independently of where it would normally be in the document flow. You can do this by setting the <em><strong>top, right, bottom and left</strong></em> properties. This is pretty useful because a relative element won't affect any of the surrounding elements when you move it this way! 
+                    Relative position acts exactly the same as static position (which is the default for every element) except it allows you to move the element independently of where it would normally be in the document flow (or wall). You can do this by setting the <em><strong>top, right, bottom and left</strong></em> properties. This is pretty useful because a relative element won't affect any of the surrounding elements when you move it this way! 
                    </p>
                    <p>
-                    Here I have used the property <em><strong>top</strong></em> to move the relative div down 10px, you can see the other static divs haven't responded.
+                    Here I have used the property <em><strong>top</strong></em> to move the relative element down 10px, you can see the other static elements haven't moved.
                   </p>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6" style="border: solid 2px whitesmoke">
                 <div class="red" style="position: relative; top: 10px;">
                   Relative
                 </div>
@@ -53,22 +59,44 @@
                 <div class="col-md-6">
                     <h3>Absolute</h3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt odio augue, nec iaculis sapien vehicula sit amet. Aliquam condimentum id ligula vitae bibendum. Morbi interdum et velit ut tristique. Nullam mi tellus, suscipit semper consectetur sit amet, laoreet sed magna. Praesent pretium augue id leo pellentesque maximus. Nulla imperdiet pulvinar tortor ac sodales. Nulla ut vulputate augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras enim nulla, iaculis vitae sagittis consequat, viverra sit amet eros. Quisque dignissim ante neque, eget fringilla metus tristique non. Sed varius eget dui vitae varius. Ut in ornare.
+                      Absolute position completely removes the element from the document flow, this means the other surrounding elements competely ignore the absolute element. If you move the element using <em><strong>top, right, bottom and left </strong></em>properties it will move in relation to it's parent container which is <strong>positioned</strong>. A <strong>positioned</strong> element is one that has any position other than static. If none of its parent elements are <strong>positioned</strong> it will fall back to the html document body and stay in the same position even if scrolling.
+                    </p>
+                    <p>
+                      Now I have used the propery <em><strong>top</strong></em> to move the absolute div 10px from the top of it's <strong>positioned</strong> parent container. I had to chang the parent container to relative so that it is <strong>positioned</strong>, otherwise it would position itself 10px from the top of the document body.
                     </p>
                 </div>
-                <div class="col-md-6">
-                  <img class="mx-auto d-block" src="https://placekitten.com/200/200">
+                <div class="col-md-6"  style="position: relative; border: solid 2px whitesmoke">
+                  <div class="red" style="position: absolute; top:10px">
+                    Absolute
+                  </div>
+                  <div class="green">
+                    Static
+                  </div>
+                  <div class="blue">
+                    Static
+                  </div>
                 </div>
           </div>
           <div class="row dark-background round-edge-bottom align-items-center">
             <div class="col-md-6">
                 <h3>Fixed</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt odio augue, nec iaculis sapien vehicula sit amet. Aliquam condimentum id ligula vitae bibendum. Morbi interdum et velit ut tristique. Nullam mi tellus, suscipit semper consectetur sit amet, laoreet sed magna. Praesent pretium augue id leo pellentesque maximus. Nulla imperdiet pulvinar tortor ac sodales. Nulla ut vulputate augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras enim nulla, iaculis vitae sagittis consequat, viverra sit amet eros. Quisque dignissim ante neque, eget fringilla metus tristique non. Sed varius eget dui vitae varius. Ut in ornare.
+                  Fixed position automatically falls back to the document body and sticks there even when scrolling. This is the same behaviour an absolute positioned element would have if none of its parent containers were <strong>positioned</strong>.
+                </p>
+                <p>
+                  I have positioned the fixed element using the <em><strong>bottom</strong></em> property to position the element 10px from the bottom of the page. Try adjusting the window size to see how the element behaves.
                 </p>
             </div>
-            <div class="col-md-6">
-              <img class="mx-auto d-block" src="https://placekitten.com/200/200">
+            <div class="col-md-6" style="border: solid 2px whitesmoke;">
+              <div class="red" style="position: fixed; bottom: 10px;">
+                Fixed
+              </div>
+              <div class="green">
+                Static
+              </div>
+              <div class="blue">
+                Static
+              </div>
             </div>
         </div>
     </div>
