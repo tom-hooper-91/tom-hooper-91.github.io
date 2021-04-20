@@ -16,7 +16,7 @@
                 <img class="logo" src="../images/dev-logo.png" alt="EDA logo">
             </div>
             <div class="col-md-6 text-right">
-                <a href="../index.html"><h1 class="thin-text name">Tom Hooper</h1></a>
+                <a href="../index.html"><h1 class="display-1 thin-text">Tom Hooper</h1></a>
                 <h4>Dev in Training</h4>
             </div>
         </div>
@@ -27,18 +27,29 @@
                 <h4><em>What are the differences between relative, absolute, and fixed positioning?</em></h4>
             </div>
         </div>
-          <div class="row dark-background">
+          <div class="row dark-background align-items-center">
               <div class="col-md-6">
                   <h3>Relative</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt odio augue, nec iaculis sapien vehicula sit amet. Aliquam condimentum id ligula vitae bibendum. Morbi interdum et velit ut tristique. Nullam mi tellus, suscipit semper consectetur sit amet, laoreet sed magna. Praesent pretium augue id leo pellentesque maximus. Nulla imperdiet pulvinar tortor ac sodales. Nulla ut vulputate augue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras enim nulla, iaculis vitae sagittis consequat, viverra sit amet eros. Quisque dignissim ante neque, eget fringilla metus tristique non. Sed varius eget dui vitae varius. Ut in ornare.
+                    Relative position acts exactly the same as static positioning (which is the default position for every element) except it allows you to move the element independently of where it would normally be in the document flow. You can do this by setting the <em><strong>top, right, bottom and left</strong></em> properties. This is pretty useful because a relative element won't affect any of the surrounding elements when you move it this way! 
+                   </p>
+                   <p>
+                    Here I have used the property <em><strong>top</strong></em> to move the relative div down 10px, you can see the other static divs haven't responded.
                   </p>
               </div>
-              <div class="col-md-6 align-self-center">
-                <img src="https://placekitten.com/200/200">
+              <div class="col-md-6">
+                <div class="red" style="position: relative; top: 10px;">
+                  Relative
+                </div>
+                <div class="green">
+                  Static
+                </div>
+                <div class="blue">
+                  Static
+                </div>
               </div>
             </div>
-            <div class="row dark-background">
+            <div class="row dark-background align-items-center">
                 <div class="col-md-6">
                     <h3>Absolute</h3>
                     <p>
@@ -46,10 +57,10 @@
                     </p>
                 </div>
                 <div class="col-md-6">
-                  <img src="https://placekitten.com/200/200">
+                  <img class="mx-auto d-block" src="https://placekitten.com/200/200">
                 </div>
           </div>
-          <div class="row dark-background round-edge-bottom">
+          <div class="row dark-background round-edge-bottom align-items-center">
             <div class="col-md-6">
                 <h3>Fixed</h3>
                 <p>
@@ -57,7 +68,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-              <img src="https://placekitten.com/200/200">
+              <img class="mx-auto d-block" src="https://placekitten.com/200/200">
             </div>
         </div>
     </div>

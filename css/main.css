@@ -35,10 +35,6 @@ a, a:hover, a:visited, a:active {
     padding-bottom: 15px;
     height: 144px;
 }
-
-.name {
-    font-size: 6em;
-}
 .round-edge-top {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -47,4 +43,16 @@ a, a:hover, a:visited, a:active {
 .round-edge-bottom {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+.red {
+    background-color: red;
+    font-size: 2em;
+}
+.green {
+    background-color: green;
+    font-size: 2em;
+}
+.blue {
+    background-color: blue;
+    font-size: 2em;
 }

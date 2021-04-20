@@ -1,0 +1,27 @@
+body {
+    font-size: 3em;
+    font-family: sans-serif;
+    background-color: #1a1a1d;
+}
+.container {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    justify-self: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.one {
+    background-color: red;
+    /*position: relative;*/
+    top: 20px;
+}
+.two {
+    background-color: blue;
+}
+.three {
+    background-color: green;
+}
