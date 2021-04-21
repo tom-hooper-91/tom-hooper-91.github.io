@@ -32,6 +32,10 @@ a, a:hover, a:visited, a:active {
 .round-edge {
     border-radius: 2px !important;
 }
+.blog-image {
+    height: 200px; 
+    width: auto
+}
 .thin-text {
     font-weight: 100;
 }
