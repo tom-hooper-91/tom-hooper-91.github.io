@@ -22,10 +22,7 @@ a, a:hover, a:visited, a:active {
     color: inherit;
     text-decoration: none;
    }
-   /*img {
-    padding-left: 10px; 
-    padding-right: 10px;
-   }*/
+
 .dark-background {
     background-color: #1a1a1d;
 }
@@ -52,6 +49,10 @@ a, a:hover, a:visited, a:active {
 .round-edge-bottom {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+.sub-title {
+    padding-bottom: 8px; 
+    padding-top: 16px;
 }
 .red {
     background-color: red;
