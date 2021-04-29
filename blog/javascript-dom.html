@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="../css/main.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+        <script src="js/bootstrap.js"></script>
+        <title>HTML Template</title>
+    </head>
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="logo" src="../images/dev-logo.png" alt="EDA logo">
+          </div>
+          <div class="col-md-6 text-end">
+            <a href="../index.html"><h1 class="display-1 thin-text">Tom Hooper</h1></a>
+            <h4 class="text-right">Dev in Training</h4>
+          </div>
+        </div>
+        <div class ="row dark-background round-edge-top">
+          <div class="col-md-12">
+            <hr>
+            <h2>Technical Blog - JS Fundamentals</h2>
+            <img src="../images/js-work.jpg" alt="workstation with storm trooper toy" class = "img-fluid round-edge">
+         </div>
+        </div>
+        <div class ="row dark-background">
+          <div class="col-md-12">
+              <h4 style="padding-bottom: 8px; padding-top: 16px;"><em>JavaScript? Never heard of it.</em></h4>
+              <p>
+                  <em>Ok, so we can't talk about JavaScript before we talk about HTML and CSS.</em> 
+              </p>
+              <p>
+                HTML is like an oldschool builder. He's been using these blocks called <em>elements</em> to build houses for years and he's very good at it. Only problem is he's stuck in his ways and doesn't much care about how the finish product looks, as long as it's sturdy and symmetrical (which it always is).
+              </p>
+              <p>
+                  This is where HTML's better half comes in. CSS is all about the design, nothing is too extragavent or fancy. If you can conjure an idea of how you want your house to look, CSS can do it for you. You want a house that looks like a giant lizard? Great CSS has got that covered, just don't complain to HTML when your car doesn't fit in the driveway  
+              </p>
+              <p>
+                  In real terms, to put it simply - HTML is the structure of your website and CSS is the style.
+              </p>
+              <hr>
+              <p>
+                  <em>Ok so JavaScript. What is control flow?</em>
+              </p>
+              <p>
+                Control flow is what makes JavaScript smart. Rather than just starting at the top of the page and executing code line by line until it finishes, control flow allows you to change how the application responds based on parameters or user input. 
+              </p>
+              <p>
+                Imagine driving to work in the morning following google maps except you could only follow the directions the maps gave you. How long before you ran a red light or crashed into another car that maps doesn’t tell you how to deal with? My bet is within 30 seconds. 
+              </p>
+              <p>
+                JavaScript uses control flow to solve this issue. Let’s try that same journey again but this time <strong>If</strong> you see another car in front of you are allowed to stop. Ok right we’re getting somewhere, now you’re not crashing into the first car on the road you come across when you start driving. In JS this is referred to as an <strong>If</strong> statement. If certain parameters are met (seeing a car in front of you) then execute some code (stop).
+              </p>
+              <p>
+                Now say you’ve gotten to work, and your usual car park is taken by that new guy Donald Trump. You might want to <strong>loop</strong> around the block a few times to see if you can find another park. But you’re not willing to do this forever, you say to yourself that 3 times is enough. Well, you can do this using JS too, using a <strong>for loop</strong>. To do this you initialise a variable (say in this case, laps) set the conditions to go until (I don’t want to do more than 3 laps) and then increment the variable (one lap at a time I’m only human).
+              </p>
+              <hr>
+              <p>
+                  <em>What is the DOM and how might I interact with it?</em>
+              </p>
+              <p>
+                  The DOM is the Document Object Model and it is essentially how you are able to use JS to interact with an HTML document. The DOM allows us to get hold of certain HTML elements and manipulate them so we can do cool stuff like changing their style or move them on the page. Think of it like a family tree which allows us to pinpoint the exact branch (element) that we want to manipulate.
+              </p>
+              <hr>
+              <p>
+                  <em>What is the difference between accessing data from an array or an object?</em>
+              </p>
+              <p>
+                  When you access data from an array you need to use square bracket notation to specify what index the data is nested in. Sound confusing? Thing of it like a que of people at the shop where [0] is the person at the counter. If i want to find the person who is first in line, or just behind the person at the counter. I could do something like que[1]. This is telling me where to look in the que and since [0] is the person at the counter, [1] is the person first in line  
+              </p>
+              <p>
+                  Objects are slightly different. If que was an object then we could sort through the que by asking the persons name in the que. Something like 'que.name', this tells us to look inside que and then inside the que search for someone by name. As you can imagine, objects can be much easier to look through when you know the name of the person your looking for. 
+              </p>
+              <hr>
+              <p>
+                <em>What are functions?</em>
+              </p>
+              <p>
+                  Functions are blocks of code that are written to perform a particular task. This could be as simple as taking 2 numbers you pass it and adding them together, or as complex as working out the meaning of life based on your favourite type of biscuit. Rather than writing out the code for this task again and again if you need to repeat it, you can write it out a single time and declare it in a function. That way all that hard work is available by using a single command, like findMeaningOfLife(gingerNut).
+              </p>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>
