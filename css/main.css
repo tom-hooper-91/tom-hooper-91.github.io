@@ -1,8 +1,8 @@
 body {
-    background-color: #4e4d50;
+    background-color: #262626/*#4e4d50*/;
     font-family: 'Roboto', sans-serif;
     min-width: 360px;
-    color: whitesmoke;
+    color: #fff;
 }
 h2 {
     font-weight: 200;
@@ -16,7 +16,7 @@ h3 {
     padding-top: 8px;
 }
 hr {
-    border-top: 2px solid #d40000;
+    border-top: 2px solid #e42024;
 }
 a, a:hover, a:visited, a:active {
     color: inherit;
@@ -24,7 +24,7 @@ a, a:hover, a:visited, a:active {
    }
 
 .dark-background {
-    background-color: #1a1a1d;
+    background-color: #100c08;
 }
 .round-edge {
     border-radius: 2px !important;
@@ -62,4 +62,7 @@ a, a:hover, a:visited, a:active {
 .blue {
     background-color: blue;
     font-size: 2em;
+}
+.bg-dark {
+    background: linear-gradient(#454545, #262626) !important;
 }
