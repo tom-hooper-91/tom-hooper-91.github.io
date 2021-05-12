@@ -22,37 +22,36 @@
             <h4 class="text-right">Dev in Training</h4>
           </div>
         </div>
-        <div class ="row dark-background round-edge-top">
+        <div class ="row dark-background round-edge-top round-edge-bottom">
           <div class="col-md-12">
             <hr>
             <h2>Problem Solving</h2>
             <h4 style="padding-bottom: 8px;"><em>That's a big rubber duck!</em></h4>
+            <img src="../images/duck.jpg" class="img-fluid round-edge" alt="A giant rubber duck">
+            <hr>
+            <h4><em>How did you get stuck on a simple problem?</em></h4>
+            <p>
+              Ok so I got stuck on a simple problem recently, I had written a function that was taking some numbers from an array (group of numbers) and working out the average number. I was fairly sure I had written it out properly, but the test parameters weren’t being met. It was a head scratcher; I spent some time tinkering with the code and was getting frustrated when I couldn’t find the reason it wasn’t working. After my pomodoro timer went off I decided to go for a walk. During this walk I was trying to clear my head when I head a eureka moment. For some reason I was dividing the total by the length of the array minus 1, rather than just the length of the array. In my head when I was writing out the code, I factored the zero index of an array into the wrong part of the code. The zero index is basically just the fact that all arrays start at 0 instead of one when you are talking about the order of an element (number) in the area. I was able to solve this issue almost by luck, but I think having a break helped a lot. Thinking retrospectively if I had console logged the answer, I would have worked out what the issue was much quicker, so from then I have been using the console log function more liberally.
+            </p>
+            <hr>
+            <h4><em>How did you solve a problem in an elegant way?</em></h4>
+            <p>
+              I’m not sure I can think of a specific example of some elegant problem solving. The times I have been most satisfied with my problem-solving skills are when I am presented with a challenge which at first seems complex and end up solving it with a single line of code. This usually starts with me typing out some pseudocode whilst talking to myself, solving the problem in a messy way, console logging some variables I have manipulated to check they are behaving as they should be and then spending some time going over the code and refactoring it into the simplest form I can. An example of this was when I used an if statement to solve an issue and then realised that I didn’t need the statement at all because I either wanted the function to do something, or nothing depending on the input. So, I removed the statement and just returned the result I wanted and <strong>EUREKA</strong>, one line of sexy code.
+            </p>
+            <hr>
+            <h4><em>How confident are you using the following techniques?</em></h4>
+            <ul>
+              <li><strong>Pseudocode</strong> - Some what confident, I feel like this is one of the most important components of problem solving in this context. I think your ability to write good pseudocode is linked to your understanding of what you are trying to solve and how you are trying to solve it, so there is room to grow with this one.</li>
+              <li><strong>Trying something</strong> - Usually one of the first things I do when I get stuck on syntax, just change something slightly and run it to see if it works.</li>
+              <li><strong>Rubber ducky method</strong> - This one really interests me because I have definetely been in the sitation where you go to explain the issue to someone only to realise you have solved it yourself. I think I do this already to a less extent, talking to myself when I get stuck. Can't wait to order my rubber duck keyring and start having a yarn</li>
+              <li><strong>Reading error messages</strong> - I was better at this in C# when I was using the de-bugging tools more efficiently. Still though the error messages on REPL have been helpful, I can usually pinpoint the line the issue is on and roughly what is causing it</li>
+              <li><strong>Googling</strong> - The Omega. I am glad googling is acceptable because I do it all the time, the only issue I find with googling is that sometimes the answers require a level of knowledge on the subject I don't have yet. Also you need to make sure you are asking the right questions. I am finding the more my knowledge improves, the more concise the question I ask, the happier I am with the answers I'm getting.</li>
+              <li><strong>Asking your peers for help</strong> - I haven't really had to do this yet, I think sometimes my ego may try to discourage me from doing this but I think as long as I stay mindfull of that It shouldn't be a problem.</li>
+              <li><strong>Asking coaches for help</strong> - I have done this a few times now and have found it very helpful, thanks Rose :)</li>
+              <li><strong>Improving your process with reflection</strong> - I saw this in action with the example I used for the simple problem above. By reflecting on the issue after I had solved it, I was able to identify a hole in my method which hopefully I was able to address</li>
+            </ul>
+            <hr>
           </div>
-        </div>
-        <div class="row dark-background">
-            <div class="col-md-12">
-                <img src="../images/duck.jpg" class="img-fluid round-edge" alt="A giant rubber duck">
-                <h4 class ="sub-title"><em>How did you get stuck on a simple problem?</em></h4>
-                <p>
-                  Ok so I got stuck on a simple problem recently, I had written a function that was taking some numbers from an array (group of numbers) and working out the average number. I was fairly sure I had written it out properly, but the test parameters weren’t being met. It was a head scratcher; I spent some time tinkering with the code and was getting frustrated when I couldn’t find the reason it wasn’t working. After my pomodoro timer went off I decided to go for a walk. During this walk I was trying to clear my head when I head a eureka moment. For some reason I was dividing the total by the length of the array minus 1, rather than just the length of the array. In my head when I was writing out the code, I factored the zero index of an array into the wrong part of the code. The zero index is basically just the fact that all arrays start at 0 instead of one when you are talking about the order of an element (number) in the area. I was able to solve this issue almost by luck, but I think having a break helped a lot. Thinking retrospectively if I had console logged the answer, I would have worked out what the issue was much quicker, so from then I have been using the console log function more liberally.
-                </p>
-                <h4><em>How did you solve a problem in an elegant way?</em></h4>
-                <p>
-                  I’m not sure I can think of a specific example of some elegant problem solving. The times I have been most satisfied with my problem-solving skills are when I am presented with a challenge which at first seems complex and end up solving it with a single line of code. This usually starts with me typing out some pseudocode whilst talking to myself, solving the problem in a messy way, console logging some variables I have manipulated to check they are behaving as they should be and then spending some time going over the code and refactoring it into the simplest form I can. An example of this was when I used an if statement to solve an issue and then realised that I didn’t need the statement at all because I either wanted the function to do something, or nothing depending on the input. So, I removed the statement and just returned the result I wanted and <strong>EUREKA</strong>, one line of sexy code.
-                </p>
-                <hr>
-                <h4><em>How confident are you using the following techniques?</em></h4>
-                <ul>
-                  <li><strong>Pseudocode</strong> - Some what confident, I feel like this is one of the most important components of problem solving in this context. I think your ability to write good pseudocode is linked to your understanding of what you are trying to solve and how you are trying to solve it, so there is room to grow with this one.</li>
-                  <li><strong>Trying something</strong> - Usually one of the first things I do when I get stuck on syntax, just change something slightly and run it to see if it works.</li>
-                  <li><strong>Rubber ducky method</strong> - This one really interests me because I have definetely been in the sitation where you go to explain the issue to someone only to realise you have solved it yourself. I think I do this already to a less extent, talking to myself when I get stuck. Can't wait to order my rubber duck keyring and start having a yarn</li>
-                  <li><strong>Reading error messages</strong> - I was better at this in C# when I was using the de-bugging tools more efficiently. Still though the error messages on REPL have been helpful, I can usually pinpoint the line the issue is on and roughly what is causing it</li>
-                  <li><strong>Googling</strong> - The Omega. I am glad googling is acceptable because I do it all the time, the only issue I find with googling is that sometimes the answers require a level of knowledge on the subject I don't have yet. Also you need to make sure you are asking the right questions. I am finding the more my knowledge improves, the more concise the question I ask, the happier I am with the answers I'm getting.</li>
-                  <li><strong>Asking your peers for help</strong> - I haven't really had to do this yet, I think sometimes my ego may try to discourage me from doing this but I think as long as I stay mindfull of that It shouldn't be a problem.</li>
-                  <li><strong>Asking coaches for help</strong> - I have done this a few times now and have found it very helpful, thanks Rose :)</li>
-                  <li><strong>Improving your process with reflection</strong> - I saw this in action with the example I used for the simple problem above. By reflecting on the issue after I had solved it, I was able to identify a hole in my method which hopefully I was able to address</li>
-                </ul>
-            </div>
         </div>
       </div>
     </body>

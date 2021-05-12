@@ -6,9 +6,9 @@ body {
 }
 h2 {
     font-weight: 200;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 42px;
+    font-size: 50px;
 }
 h3 {
     font-weight: 200;
@@ -16,7 +16,7 @@ h3 {
     padding-top: 8px;
 }
 hr {
-    border-top: 2px solid #990724;
+    border-top: 2px solid #d40000;
 }
 a, a:hover, a:visited, a:active {
     color: inherit;
@@ -50,10 +50,7 @@ a, a:hover, a:visited, a:active {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.sub-title {
-    padding-bottom: 8px; 
-    padding-top: 16px;
-}
+
 .red {
     background-color: red;
     font-size: 2em;
