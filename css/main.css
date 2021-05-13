@@ -36,11 +36,10 @@ a, a:hover, a:visited, a:active {
 .thin-text {
     font-weight: 100;
 }
-/*.logo {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    height: 144px;
-}*/
+.logo {
+    max-height: 144px;
+    max-width: 60%;
+}
 .round-edge-top {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
