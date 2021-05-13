@@ -38,6 +38,10 @@ a, a:hover, a:visited, a:active {
 }
 .logo {
     max-height: 144px;
+}
+.logo-link {
+    width: auto;
+    height: auto;
     max-width: 60%;
 }
 .round-edge-top {
